@@ -35,4 +35,11 @@
 * Continue Statement
 * Break Statement
 
+##### ----Session 3----
+* Functions
+* Pointers
+* Recursion
+* Strings
+* Structures
+
 ### You are welcome to update these source codes if they contain any miss matches.
