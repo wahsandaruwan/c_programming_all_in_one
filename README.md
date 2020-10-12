@@ -35,4 +35,4 @@
 * Continue Statement
 * Break Statement
 
-### Yuo are welcome to update these source codes if they contain any miss matches.
+### You are welcome to update these source codes if they contain any miss matches.
