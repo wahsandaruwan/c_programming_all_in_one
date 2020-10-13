@@ -41,5 +41,9 @@
 * Recursion
 * Strings
 * Structures
+* Unions
+* Type Casting
+* Enumerations
+* File Operations
 
 ### You are welcome to update these source codes if they contain any miss matches.
