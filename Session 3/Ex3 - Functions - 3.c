@@ -3,7 +3,7 @@
 
 // Function Declaration
 void printName(char n[20]);
-float printWeightHeight(float w, float h);
+void printWeightHeight(float w, float h);
 int calculateSalary();
 char getGrade(int m);
 
@@ -45,7 +45,7 @@ void printName(char n[20]){
 }
 
 // Print Weight and Height
-float printWeightHeight(float w, float h){
+void printWeightHeight(float w, float h){
     printf("\nYour weight is %0.2f",w);
     printf("\nYour height is %0.2f",h);
 }

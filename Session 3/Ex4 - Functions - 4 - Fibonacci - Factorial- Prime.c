@@ -31,16 +31,18 @@ factorial(int x){
 }
 
 // For Check if it is a Prime Number
-isPrime(int x){
+int isPrime(int x){
     int i;
-    for(i = 2; i < x/2; i++){
+    for(i = 2; i <= x/2; i++){
         if(x % i == 0){
             printf("%d is not a Prime Number!\n",x);
-            getch();
-            exit(0);
+            return 0;
+            // If you use return statement it should be the last statement of a function
+            // After that it says execution of the function is over
         }
     }
     printf("%d is a Prime Number!\n",x);
+    return 0;
 }
 
 // For Fibonacci Series

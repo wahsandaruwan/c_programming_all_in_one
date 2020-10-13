@@ -4,7 +4,7 @@
 // Function Declaration/Prototype
 float getAnswer(float x, int y);
 
-main(){
+int main(){
     float num1;
     int num2;
     printf("Enter Numbers (Ex: 23,45) : ");
@@ -15,6 +15,8 @@ main(){
 
     getch();
 
+    return 0;
+    // After the return statement it says execution of the function is over
 }
 
 // Function Definition
