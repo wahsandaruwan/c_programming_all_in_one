@@ -1,7 +1,7 @@
 #include <stdio.h>
 // Call/Pass by Reference
 // Another Example
-int add(int *a, int *b, int *c);
+void add(int *a, int *b, int *c);
 main(){
     int a = 60;
     int b = 20;
@@ -13,7 +13,7 @@ main(){
     getch();
 }
 
-int add(int *a, int *b, int *c){
+void add(int *a, int *b, int *c){
     *c = *a + *b;
 }
 

@@ -7,8 +7,9 @@ main(){
     printf("Element 1 : %d\n",*ptr);
     printf("Address 1 : %x\n",ptr);
 
+    //*ptr = *ptr + 2; Change value;
+    
     // Arithmetic operation on ptr / incrementing the address by 1
-    //*ptr = *ptr + 2;
     *ptr++;
 
     printf("Element 2 : %d\n",*ptr);

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 // Fibonacci, Factorial, Prime Number Program
 // With Functions
 
