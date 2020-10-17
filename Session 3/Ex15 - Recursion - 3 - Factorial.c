@@ -5,8 +5,6 @@
 void facto(int x);
 main(){
     int n;
-    int pre  = 0;
-    int cur = 1;
     printf("Enter number : ");
     scanf("%d",&n);
     // Calling

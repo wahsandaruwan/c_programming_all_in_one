@@ -3,8 +3,8 @@
 main(){
     int i,j;
     int len = 0;
-    char str1[7];
-    char str2[7];
+    char str1[12];
+    char str2[12];
     printf("Enter the string 1 : ");
     scanf("%s",&str1);
     printf("Enter the string 2 : ");
