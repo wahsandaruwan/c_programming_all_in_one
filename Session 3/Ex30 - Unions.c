@@ -1,6 +1,6 @@
 #include <stdio.h>
 // Unions - Allows to store different data types in same memory location
-// Memory size equal to size of largest number
+// Memory size equal to size of largest member
 // You can define create many members in union,
 // But only one member can contain a value at a given time, Others get garbage
 // Last use member get higher precedence
@@ -14,16 +14,22 @@ union Data {
 };
 main(){
     union Data data;
-    printf( "Memory size occupied by data : %d\n", sizeof(data));
+    printf("Memory size occupied by data : %d\n", sizeof(data));
 
     // Use Memebers
     data.i = 10;
     data.f = 220.5;
-    strcpy( data.str, "Thriple Bee");
+    strcpy data.str, "Thriple Bee");
 
-    printf( "data.i : %d\n", data.i);
-    printf( "data.f : %f\n", data.f);
-    printf( "data.str : %s\n", data.str);
+    printf("data.i : %d\n", data.i);
+    printf("data.f : %f\n", data.f);
+    printf("data.str : %s\n", data.str);
+
+    // Same Memory Location
+    printf("d.i : %x\n",&(d.i));
+    printf("d.f : %x\n",&(d.f));
+    printf("d.str : %x\n",&(d.str));
+    printf("d : %x\n",&(d));
 
     getch();
 }
