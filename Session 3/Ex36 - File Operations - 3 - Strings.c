@@ -38,7 +38,7 @@ main(){
     }
     else{
         // Reading file with read mode
-        fscanf(fp,"%s ",srel);
+        fscanf(fp,"%s",srel);
 
         printf("The Character value is : %s",srel);
     }

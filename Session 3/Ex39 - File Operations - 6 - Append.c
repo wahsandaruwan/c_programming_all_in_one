@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+// File Operations
+// Append Mode
 main(){
     FILE *fp;
     // Append mode
@@ -6,6 +9,8 @@ main(){
 
     if(fp == NULL){
         printf("No such a file!");
+        getch();
+        exit(0);
     }
 
     // Write
