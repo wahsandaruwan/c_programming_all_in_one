@@ -39,7 +39,10 @@
 * Functions
 * Pointers
 * Recursion
-* Strings
+* Strings with Inbuilt Functions
+
+##### ----Session 4----
+* Strings without Inbuilt Functions
 * Structures
 * Unions
 * Type Casting
